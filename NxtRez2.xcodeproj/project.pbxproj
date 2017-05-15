@@ -8,22 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		0E1A9CD41ECA19900093C07C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1A9CD31ECA19900093C07C /* AppDelegate.swift */; };
-		0E1A9CD61ECA19900093C07C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1A9CD51ECA19900093C07C /* ViewController.swift */; };
-		0E1A9CD91ECA19900093C07C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E1A9CD71ECA19900093C07C /* Main.storyboard */; };
-		0E1A9CDC1ECA19900093C07C /* NxtRez2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0E1A9CDA1ECA19900093C07C /* NxtRez2.xcdatamodeld */; };
-		0E1A9CDE1ECA19900093C07C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E1A9CDD1ECA19900093C07C /* Assets.xcassets */; };
+		0E1A9CD61ECA19900093C07C /* ReservationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1A9CD51ECA19900093C07C /* ReservationViewController.swift */; };
 		0E1A9CE11ECA19900093C07C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E1A9CDF1ECA19900093C07C /* LaunchScreen.storyboard */; };
+		0E1A9CE91ECA1A200093C07C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E1A9CE81ECA1A200093C07C /* Main.storyboard */; };
+		0E1A9CED1ECA1ACF0093C07C /* Reservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1A9CEC1ECA1ACF0093C07C /* Reservation.swift */; };
+		0E1A9CEF1ECA1AE30093C07C /* ReservationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1A9CEE1ECA1AE30093C07C /* ReservationTableViewController.swift */; };
+		0E1A9CF11ECA1AF80093C07C /* ReservationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1A9CF01ECA1AF80093C07C /* ReservationTableViewCell.swift */; };
+		0E1A9CF31ECA21A30093C07C /* make_rez.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E1A9CF21ECA21A30093C07C /* make_rez.png */; };
+		0E1A9CF51ECA21D20093C07C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E1A9CF41ECA21D20093C07C /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0E1A9CD01ECA19900093C07C /* NxtRez2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NxtRez2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E1A9CD31ECA19900093C07C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0E1A9CD51ECA19900093C07C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0E1A9CD81ECA19900093C07C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0E1A9CD51ECA19900093C07C /* ReservationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationViewController.swift; sourceTree = "<group>"; };
 		0E1A9CDB1ECA19900093C07C /* NxtRez2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NxtRez2.xcdatamodel; sourceTree = "<group>"; };
-		0E1A9CDD1ECA19900093C07C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E1A9CE01ECA19900093C07C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0E1A9CE21ECA19900093C07C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E1A9CE81ECA1A200093C07C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		0E1A9CEC1ECA1ACF0093C07C /* Reservation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Reservation.swift; path = ../Reservation.swift; sourceTree = "<group>"; };
+		0E1A9CEE1ECA1AE30093C07C /* ReservationTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReservationTableViewController.swift; path = ../ReservationTableViewController.swift; sourceTree = "<group>"; };
+		0E1A9CF01ECA1AF80093C07C /* ReservationTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReservationTableViewCell.swift; path = ../ReservationTableViewCell.swift; sourceTree = "<group>"; };
+		0E1A9CF21ECA21A30093C07C /* make_rez.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = make_rez.png; sourceTree = "<group>"; };
+		0E1A9CF41ECA21D20093C07C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,11 +63,15 @@
 		0E1A9CD21ECA19900093C07C /* NxtRez2 */ = {
 			isa = PBXGroup;
 			children = (
+				0E1A9CF41ECA21D20093C07C /* Assets.xcassets */,
+				0E1A9CF21ECA21A30093C07C /* make_rez.png */,
+				0E1A9CD51ECA19900093C07C /* ReservationViewController.swift */,
+				0E1A9CEC1ECA1ACF0093C07C /* Reservation.swift */,
+				0E1A9CEE1ECA1AE30093C07C /* ReservationTableViewController.swift */,
+				0E1A9CF01ECA1AF80093C07C /* ReservationTableViewCell.swift */,
 				0E1A9CD31ECA19900093C07C /* AppDelegate.swift */,
-				0E1A9CD51ECA19900093C07C /* ViewController.swift */,
-				0E1A9CD71ECA19900093C07C /* Main.storyboard */,
-				0E1A9CDD1ECA19900093C07C /* Assets.xcassets */,
 				0E1A9CDF1ECA19900093C07C /* LaunchScreen.storyboard */,
+				0E1A9CE81ECA1A200093C07C /* Main.storyboard */,
 				0E1A9CE21ECA19900093C07C /* Info.plist */,
 				0E1A9CDA1ECA19900093C07C /* NxtRez2.xcdatamodeld */,
 			);
@@ -128,8 +139,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E1A9CE11ECA19900093C07C /* LaunchScreen.storyboard in Resources */,
-				0E1A9CDE1ECA19900093C07C /* Assets.xcassets in Resources */,
-				0E1A9CD91ECA19900093C07C /* Main.storyboard in Resources */,
+				0E1A9CF31ECA21A30093C07C /* make_rez.png in Resources */,
+				0E1A9CF51ECA21D20093C07C /* Assets.xcassets in Resources */,
+				0E1A9CE91ECA1A200093C07C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,8 +152,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E1A9CD61ECA19900093C07C /* ViewController.swift in Sources */,
-				0E1A9CDC1ECA19900093C07C /* NxtRez2.xcdatamodeld in Sources */,
+				0E1A9CD61ECA19900093C07C /* ReservationViewController.swift in Sources */,
+				0E1A9CEF1ECA1AE30093C07C /* ReservationTableViewController.swift in Sources */,
+				0E1A9CF11ECA1AF80093C07C /* ReservationTableViewCell.swift in Sources */,
+				0E1A9CED1ECA1ACF0093C07C /* Reservation.swift in Sources */,
 				0E1A9CD41ECA19900093C07C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -149,14 +163,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0E1A9CD71ECA19900093C07C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0E1A9CD81ECA19900093C07C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0E1A9CDF1ECA19900093C07C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
